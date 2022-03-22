@@ -1,0 +1,17 @@
+
+body { background-color: #fef2b3;
+
+}
+
+
+.imgheader{
+    filter: grayscale(0.90)
+}
+
+.col-1{
+    background-color: aqua;
+}
+
+footer a:hover {
+	opacity: .5;
+}
