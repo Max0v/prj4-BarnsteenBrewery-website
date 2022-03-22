@@ -10,7 +10,25 @@ body { background-color: #fef2b3;
 .spinner-color{ color: #E94683;
      
 }
+.rotating_01{
+    display: block;
 
+}
+.rotating_01:hover{
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
 .imgheader{
     filter: grayscale(0.90)
 }
