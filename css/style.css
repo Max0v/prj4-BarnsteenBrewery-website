@@ -1,8 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 body { background-color: #fef2b3;
 
 }
-
+.landingH1 { color: #36A9E1;
+    font-family: Quicksand, sans-serif;
+}
+.spinner-color{ color: #E94683;
+     
+}
 
 .imgheader{
     filter: grayscale(0.90)
