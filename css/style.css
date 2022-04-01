@@ -1,41 +1,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-body { background-color: #fef2b3;
+    body { background-color: #fef2b3;
 
+/* coming soon page */
 }
-.landingH1 { color: #36A9E1;
+    .landingH1 { color: #36A9E1;
     font-family: Quicksand, sans-serif;
 }
-.spinner-color{ color: #E94683;
+    .spinner-color{ color: #E94683;
      
 }
-.rotating_01{
+    .rotating_01{
     display: block;
 
 }
-.navbar{
-    color: #36A9E1;
-}
-
-.rotating_01:hover{
+    .rotating_01:hover{
     -webkit-animation: spin 3s linear infinite;
     -moz-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
 
-@-webkit-keyframes spin{
+    @-webkit-keyframes spin{
     100%{-webkit-transform: rotate(360deg);}
 }
-@-moz-keyframes spin{
+    @-moz-keyframes spin{
     100%{-webkit-transform: rotate(360deg);}
 }
-@keyframes spin{
+    @keyframes spin{
     100%{-webkit-transform: rotate(360deg);}
 }
-.imgheader{
-    filter: grayscale(0.90)
-}
+/* End coming soon page */
+
 
 .col-1{
     background-color: aqua;
@@ -45,11 +41,48 @@ footer a:hover {
 	opacity: .5;
 }
 
-/* Changing the background colour for the header */
+/* Background video header */
+.video-background-holder {
+    position: relative;
+    background-color: black;
+    height: calc(100vh - 72px);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video-background-holder video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .video-background-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+/* End video header */  
 
-header {
-	background-color: #000060;
-}
 
 
 
