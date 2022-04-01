@@ -14,6 +14,10 @@ body { background-color: #fef2b3;
     display: block;
 
 }
+.navbar{
+    color: #36A9E1;
+}
+
 .rotating_01:hover{
     -webkit-animation: spin 3s linear infinite;
     -moz-animation: spin 3s linear infinite;
@@ -36,6 +40,20 @@ body { background-color: #fef2b3;
 .col-1{
     background-color: aqua;
 }
+
+footer a:hover {
+	opacity: .5;
+}
+
+/* Changing the background colour for the header */
+
+header {
+	background-color: #000060;
+}
+
+
+
+/* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
